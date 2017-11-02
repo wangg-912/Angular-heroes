@@ -5,7 +5,8 @@ Angular V4.6.0
 打开 git 贴入路径 https://github.com/wg-paddme/Angular-heroes.git 下载到本地 ；
 或者直接下载该项目的压缩包，解压；
 
-#使用
+# 使用
+
 通过命令进入该文件的根目录下，按步骤执行：
 1、npm install 安装依赖
 2、npm start 项目会自动打包成浏览器识别的脚本文件
