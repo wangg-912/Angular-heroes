@@ -1,6 +1,7 @@
 import { NgModule }       from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
 import { FormsModule }    from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent }   from './dashboard/dashboard.component';
@@ -14,6 +15,7 @@ import { AppRoutingModule } from './app-routing';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpModule,
     AppRoutingModule
   ],
   // 声明，试图类属于这个模块，一般视图分为三种：组件、指令和管道
